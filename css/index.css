@@ -26,6 +26,7 @@ header nav ul li a:hover {
 }
 .wrapper {
   display: grid;
+  margin: auto;
   grid-template-columns: 150px 250px 125px;
   grid-gap: 10%;
   background-color: #66CDAA;
