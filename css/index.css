@@ -56,13 +56,10 @@ ul {
     margin: auto;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 5px;
-    background-color: none;
-    color: none;
     padding-left: 20px;
 }
 
 .box {
-    background-color: none;
     color: black;
     font-size: 12px;
 }
