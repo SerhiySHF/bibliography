@@ -2,31 +2,39 @@
 
 :root {
     font-family: 'Lato', sans-serif;
-}    
+}
+
 body {
     max-width: 800px;
     margin: auto;
     padding: 0 5px;
-} 
+}
+
 header nav ul {
     padding-left: 0;
 }
+
 header nav {
     margin: 0 5px;
 }
-header nav ul li{
+
+header nav ul li {
     list-style-type: none;
 }
-header nav ul li a{
+
+header nav ul li a {
     color: black;
     text-decoration: none;
 }
+
 header nav ul li a:hover {
     text-decoration: underline;
 }
+
 li a:hover {
     background-color: #808080;
 }
+
 li a {
     display: block;
     color: white;
@@ -34,6 +42,7 @@ li a {
     padding: 14px 16px;
     text-decoration: none;
 }
+
 ul {
     list-style-type: none;
     margin: 0;
@@ -41,61 +50,68 @@ ul {
     overflow: hidden;
     font-weight: bold;
 }
+
 .wrapper {
-  display: grid;
-  margin: auto;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-gap: 5px;
-  background-color: none;
-  color: none;
-  padding-left: 20px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 5px;
+    background-color: none;
+    color: none;
+    padding-left: 20px;
 }
 
 .box {
-  background-color: none;
-  color: black;
-  font-size: 12px;
+    background-color: none;
+    color: black;
+    font-size: 12px;
 }
+
 p {
-    text-align:center;
+    text-align: center;
     font-size: 20px;
     font-weight: bold;
-}    
-@media (min-width: 400px){
-    header h1, nav{
+}
+
+@media (min-width: 400px) {
+    header h1,
+    nav {
         display: flex;
-            }
-    header nav ul{
+    }
+    header nav ul {
         display: flex;
         flex: 1;
         align-items: center;
     }
-    header nav ul li{
+    header nav ul li {
         margin-left: 8%;
     }
     header div.banner {
         height: 500px;
         background-image: url(../img/ernesthemingwaywriting.jpg);
         background-position: center;
-        background-size: cover; 
+        background-size: cover;
         display: flex;
         align-items: flex-start;
         justify-content: left;
-    } 
-}    
+    }
+}
+
 h1 {
     font-weight: bold;
     font-size: 50px;
     text-indent: 50px;
 }
+
 h2 {
     font-weight: bold;
     font-size: 40px;
     text-align: center;
 }
+
 body {
-     background-image: linear-gradient(#e8f1e8, #8fbc8f, #e8f1e8);
-}    
+    background-image: linear-gradient(#e8f1e8, #8fbc8f, #e8f1e8);
+}
 
 footer {
     text-align: center;
@@ -105,7 +121,7 @@ footer {
     margin: auto;
 }
 
-@media (max-width: 670px){
+@media (max-width: 670px) {
     .wrapper {
         grid-template-columns: 1fr 1fr;
         column-gap: 5px;
@@ -113,7 +129,8 @@ footer {
         margin: auto;
     }
 }
-@media (max-width: 480px){
+
+@media (max-width: 480px) {
     .wrapper {
         display: grid;
         grid-template-columns: 1fr;
@@ -122,19 +139,56 @@ footer {
         margin: auto;
     }
 }
+
 .footer {
     display: grid;
     margin: auto;
 }
 
-@media (max-width: 400px){
+@media (max-width: 400px) {
     .banner {
-       text-align: center;
-    }  
+        text-align: center;
+    }
 }
-@media (max-width: 480px){
-    div.box.a, div.box.c, div.box.d, div.box.f {
+
+@media (max-width: 480px) {
+    div.box.a,
+    div.box.c,
+    div.box.d,
+    div.box.f {
         display: flex;
         justify-content: center;
     }
-}    
+}
+
+.modal-body {
+    text-align: center;
+}
+
+.textinfo {
+    text-align: justify;
+}
+
+div.box.a:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+div.box.c:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+div.box.d:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}
+
+div.box.f:hover {
+    -webkit-transform: scale(0.9);
+    -ms-transform: scale(0.9);
+    transform: scale(0.9);
+}

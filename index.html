@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,8 +12,10 @@
     <link rel="manifest" href="favicon/site.webmanifest">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
+
 <body>
     <header>
         <nav>
@@ -23,13 +26,13 @@
             </ul>
         </nav>
         <div class="banner">
-            <h1>Ernest Hemingway</h1>    
-        </div>    
+            <h1>Ernest Hemingway</h1>
+        </div>
     </header>
     <section>
         <h2>Bibliography</h2>
         <div class="wrapper">
-            <div class="box a"><img src="img/afarewelltoarms.jpg" alt="A Farewell to Arms"></div>
+            <div class="box a"><img src="img/afarewelltoarms.jpg" alt="A Farewell to Arms" data-toggle="modal" data-target="#aFarewellToArms"></div>
             <div class="box b">
                 <p>Novels/Novella</p>
                 <ul>
@@ -45,18 +48,18 @@
                     <li>- The Garden of Eden (1986)</li>
                 </ul>
                 <p>Nonfiction</p>
-                <ul>    
+                <ul>
                     <li>- Death in the Afternoon (1932)</li>
                     <li>- Green Hills of Africa (1935)</li>
                     <li>- The Dangerous Summer (1960)</li>
                     <li>- A Moveable Feast (1964)</li>
                 </ul>
             </div>
-            <div class="box c"><img src="img/thesunalsorises.jpg" alt="The Sun Also Rises"></div>
-            <div class="box d"><img src="img/theoldmanandthesea.jpg" alt="The Old Man and the Sea"></div>
+            <div class="box c"><img src="img/thesunalsorises.jpg" alt="The Sun Also Rises" data-toggle="modal" data-target="#theSunAlsoRises"></div>
+            <div class="box d"><img src="img/theoldmanandthesea.jpg" alt="The Old Man and the Sea" data-toggle="modal" data-target="#theOldManAndTheSea"></div>
             <div class="box e">
                 <p>Short Story Collections</p>
-                <ul>    
+                <ul>
                     <li>- Three Stories and Ten Poems (1923)</li>
                     <li>- Men Without Women (1927)</li>
                     <li>- The Snows of Kilimanjaro (1932)</li>
@@ -67,11 +70,113 @@
                     <li>- The Nick Adams Stories (1972)</li>
                 </ul>
             </div>
-            <div class="box f"><img src="img/forwhomthebetolls.jpg" alt="For Whom the Bell Tolls"></div>
+            <div class="box f"><img src="img/forwhomthebetolls.jpg" alt="For Whom the Bell Tolls" data-toggle="modal" data-target="#forWhomTheBellTolls"></div>
         </div>
     </section>
-     <footer>
-            © 2018 Serhiy Mykytiuk
+    <footer>
+        © 2018 Serhiy Mykytiuk
     </footer>
+    <!-- Modal A Farewell to Arms -->
+    <div class="modal fade" id="aFarewellToArms" tabindex="-1" role="dialog" aria-labelledby="aFarewellToArmsLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="aFarewellToArmsLabel">A Farewell to Arms (1929)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/afarewelltoarms.jpg" alt="A Farewell to Arms">
+                    <div class="textinfo">A Farewell to Arms is a novel by Ernest Hemingway set during the Italian campaign of World War I. First published in 1929, it is a first-person account of an American, Frederic Henry, serving as a lieutenant ("tenente") in the ambulance
+                        corps of the Italian Army. The title is taken from a poem by the 16th-century English dramatist George Peele. The novel, set against the backdrop of World War I, describes a love affair between the expatriate Henry and an English
+                        nurse, Catherine Barkley. Its publication ensured Hemingway's place as a modern American writer of considerable stature. The book became his first best-seller, and has been called "the premier American war novel from that debacle
+                        World War I." The novel has been adapted a number of times, initially for the stage in 1930; as a film in 1932 and again in 1957, and as a three-part television miniseries in 1966. The 1996 film In Love and War, directed by Richard
+                        Attenborough and starring Chris O'Donnell and Sandra Bullock, depicts Hemingway's life in Italy as an ambulance driver in the events prior to his writing of A Farewell to Arms.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal The Sun Also Rises -->
+    <div class="modal fade" id="theSunAlsoRises" tabindex="-1" role="dialog" aria-labelledby="theSunAlsoRisesLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="theSunAlsoRisessLabel">The Sun Also Rises (1926)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/thesunalsorises.jpg" alt="The Sun Also Rises">
+                    <div class="textinfo">The Sun Also Rises is a 1926 novel written by American author Ernest Hemingway, about a group of American and British expatriates who travel from Paris to the Festival of San Fermín in Pamplona to watch the running of the bulls and
+                        the bullfights. An early and enduring modernist novel, it received mixed reviews upon publication. However, Hemingway biographer Jeffrey Meyers writes that it is now "recognized as Hemingway's greatest work",and Hemingway scholar
+                        Linda Wagner-Martin calls it his most important novel.The novel was published in the United States in October 1926 by Scribner's. A year later, Jonathan Cape published the novel in London under the title Fiesta. It remains in print.
+                        Hemingway began writing the novel on his birthday—21 July—in 1925, and finished the draft manuscript barely two months later, in September. After setting aside the manuscript for a short period, he worked on revisions during the
+                        winter of 1926. The basis for the novel was Hemingway's trip to Spain in 1925. The setting was unique and memorable, depicting sordid café life in Paris and the excitement of the Pamplona festival, with a middle section devoted
+                        to descriptions of a fishing trip in the Pyrenees. Hemingway's sparse writing style, combined with his restrained use of description to convey characterizations and action, is demonstrative of his "Iceberg Theory" of writing. The
+                        novel is a roman à clef: the characters are based on real people in Hemingway's circle, and the action is based on real events. In the book, Hemingway presents his notion that the "Lost Generation"—considered to have been decadent,
+                        dissolute, and irretrievably damaged by World War I—was in fact resilient and strong. Additionally, Hemingway investigates themes of love and death; the revivifying power of nature, and the concept of masculinity.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal The Old Man and the Sea -->
+    <div class="modal fade" id="theOldManAndTheSea" tabindex="-1" role="dialog" aria-labelledby="theOldManAndTheSeaLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="theOldManAndTheSeaLabel">The Old Man and the Sea(1952)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/theoldmanandthesea.jpg" alt="The Old Man and the Sea">
+                    <div class="textinfo"> The Old Man and the Sea is a short novel written by the American author Ernest Hemingway in 1951 in Cuba, and published in 1952. It was the last major work of fiction by Hemingway that was published during his lifetime. One of his
+                        most famous works, it tells the story of Santiago, an aging Cuban fisherman who struggles with a giant marlin far out in the Gulf Stream off the coast of Cuba. In 1953, The Old Man and the Sea was awarded the Pulitzer Prize for
+                        Fiction, and it was cited by the Nobel Committee as contributing to their awarding of the Nobel Prize in Literature to Hemingway in 1954.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Modal For Whom the Bell Tolls -->
+    <div class="modal fade" id="forWhomTheBellTolls" tabindex="-1" role="dialog" aria-labelledby="forWhomTheBellTollsLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="forWhomTheBellTollsLabel">For Whom the Bell Tolls (1940)</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <img src="img/forwhomthebetolls.jpg" alt="For Whom the Bell Tolls">
+                    <div class="textinfo"> For Whom the Bell Tolls is a novel by Ernest Hemingway published in 1940. It tells the story of Robert Jordan, a young American in the International Brigades attached to a republican guerrilla unit during the Spanish Civil War. As
+                        a dynamiter, he is assigned to blow up a bridge during an attack on the city of Segovia. The novel is regarded as one of Hemingway's best works, along with The Sun Also Rises, A Farewell to Arms, and The Old Man and the Sea.
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 </body>
+
 </html>
