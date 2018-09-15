@@ -170,22 +170,26 @@ div.box.a:hover {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+    cursor: pointer;
 }
 
 div.box.c:hover {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+    cursor: pointer;
 }
 
 div.box.d:hover {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+    cursor: pointer;
 }
 
 div.box.f:hover {
     -webkit-transform: scale(0.9);
     -ms-transform: scale(0.9);
     transform: scale(0.9);
+    cursor: pointer;
 }
